@@ -17,10 +17,10 @@ Include:
 - Important problems
 `;
 
-      const res = await axios.post(
-        "http://localhost:5000/api/ai/ask",
-        { prompt }
-      );
+    const res = await axios.post(
+  `${import.meta.env.VITE_API_URL}/api/ai/ask`,
+  { prompt }
+);
 
       setRoadmap(res.data.response);
     } catch (error) {

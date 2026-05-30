@@ -12,9 +12,9 @@ const askAI = async () => {
     setLoading(true);
 
     const res = await axios.post(
-      "http://localhost:5000/api/ai/ask",
-      { prompt }
-    );
+  `${import.meta.env.VITE_API_URL}/api/ai/ask`,
+  { prompt }
+);
 
     setResponse(res.data.response);
 

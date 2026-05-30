@@ -9,8 +9,8 @@ function Interview() {
 
   const generateQuestion = async () => {
     try {
-      const res = await axios.post(
-        "http://localhost:5000/api/ai/ask",
+     const res = await axios.post(
+  `${import.meta.env.VITE_API_URL}/api/ai/ask`,
         {
           prompt:
             "Generate one DSA interview question with no solution."
@@ -40,10 +40,10 @@ Give:
 4. Better Answer
 `;
 
-      const res = await axios.post(
-        "http://localhost:5000/api/ai/ask",
-        { prompt }
-      );
+     const res = await axios.post(
+  `${import.meta.env.VITE_API_URL}/api/ai/ask`,
+  { prompt }
+);
 
       setFeedback(res.data.response);
     } catch (error) {
