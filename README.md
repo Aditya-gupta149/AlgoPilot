@@ -41,6 +41,7 @@ AlgoPilot
 │   ├── tutor.png
 │   ├── review.png
 │   └── interview.png
+|   |_roadmap.png
 └── README.md
 
 ## Getting Started
@@ -97,16 +98,24 @@ GitHub: https://github.com/Aditya-gupta149
 
 ### Home Page
 
-![Home Page](./screenshots/home.png)
+<img width="1905" height="858" alt="Screenshot 2026-05-30 083336" src="https://github.com/user-attachments/assets/48e3a193-15f1-44f3-929b-cd2a521d799c" />
+
 
 ### AI DSA Tutor
 
-![AI Tutor](./screenshots/tutor.png)
+<img width="1900" height="840" alt="Screenshot 2026-05-30 083311" src="https://github.com/user-attachments/assets/fd61dacf-a01e-46c0-a08c-fd6e7ebcfb0a" />
+
 
 ### Code Review
 
-![Code Review](./screenshots/review.png)
+<img width="1898" height="855" alt="Screenshot 2026-05-30 083711" src="https://github.com/user-attachments/assets/4cc82766-54c7-428f-9fa0-dc4442812aa5" />
+
 
 ### Mock Interview
 
-![Mock Interview](./screenshots/interview.png)
+<img width="1856" height="748" alt="Screenshot 2026-05-30 083522" src="https://github.com/user-attachments/assets/a7076d78-012d-404e-866c-b1ab2f84bef5" />
+
+
+### Roadmap
+
+<img width="1908" height="835" alt="Screenshot 2026-05-30 083833" src="https://github.com/user-attachments/assets/bea21f57-51af-4c61-b4bf-7b93484fc094" />
